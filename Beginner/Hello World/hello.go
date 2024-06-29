@@ -7,4 +7,7 @@ func main() {
 	fmt.Println("Hello, World!")
 }
 
-/**/
+/*
+go run - runs
+go build - compiles
+*/
