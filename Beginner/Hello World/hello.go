@@ -3,6 +3,8 @@ package main
 
 import "fmt"
 
+//fmt stands for formating
+
 func main() {
 	fmt.Println("Hello, World!")
 }
