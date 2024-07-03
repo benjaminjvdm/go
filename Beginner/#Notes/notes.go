@@ -26,3 +26,7 @@ Syntax Rules
 . no need for semi colons, but good lang spec
 . wrap your code blocks in braces, but the first brace needs to be on the preceding statement line
 */
+
+/*
+. Check this for writing GO with tests - https://github.com/quii/learn-go-with-tests
+*/
