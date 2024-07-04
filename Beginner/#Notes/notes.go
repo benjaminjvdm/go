@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Print("Hello, World!")
+	var six uint = 666
+	fmt.Print(six)
 }
 
 /*
@@ -30,3 +31,23 @@ Syntax Rules
 /*
 . Check this for writing GO with tests - https://github.com/quii/learn-go-with-tests
 */
+
+/*
+Vars and stuff
+. You either let the compiler implicitly guess the var type or exclusively set it (var name type)
+. Integers have unsigned and signed types + number of bits need to be called (eg. uint64 vs int64) affecting the range of the var
+. Aliases can be used instead of full name like byte, uint, int and uintptr(unsigned int pointer)
+. Unsigned integers depend on OS and can be 32/64
+. Floats are only in 32/64 versions
+. Complex numbers are a combination of a real and imaginary part available in 32/64
+. Arrays + Slices for ordered data collections
+. Maps and Structs for aggr. of values
+. function is a type and be passed into another as an arg
+. Pointers are the reference variables in Go and points to an address like normal
+. You cant change types at runtime
+. %T is the placeholder for var types in a fmt.println situation
+. remember to add line feed via \n because fmt print dont do that
+. := is the faster var assigning method
+. const can be initialized outside of the main func
+*/
+
