@@ -6,7 +6,7 @@ import (
 
 func main() {
 	var six uint = 777
-	fmt.Println("\n", six, "\n")
+	fmt.Println("\n", six)
 }
 
 /*
