@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	var six uint = 666
-	fmt.Print(six)
+	var six uint = 777
+	fmt.Println("\n", six, "\n")
 }
 
 /*
