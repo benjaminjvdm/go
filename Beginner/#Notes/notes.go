@@ -26,6 +26,7 @@ Syntax Rules
 . vars are mixed case
 . no need for semi colons, but good lang spec
 . wrap your code blocks in braces, but the first brace needs to be on the preceding statement line
+"_" after a comma will ignore the error
 */
 
 /*
