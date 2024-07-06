@@ -10,26 +10,26 @@ import (
 )
 
 func main() {
-	//init vars (hard way)
-	var smsSendingLimt int // 1
-	var costPerSMS float64 //1.0
-	var hasPermission bool
-	var username string // ""
+	// //init vars (hard way)
+	// var smsSendingLimt int // 1
+	// var costPerSMS float64 //1.0
+	// var hasPermission bool
+	// var username string // ""
 
-	// //init vars (infer)
-	model := "Nexus 9 -"
-	serial := " KD6-3.7"
-	congrats := "Happy Birthday"
-	fmt.Println(congrats, model, serial)
+	// // //init vars (infer)
+	// model := "Nexus 9 -"
+	// serial := " KD6-3.7"
+	// congrats := "Happy Birthday"
+	// fmt.Println(congrats, model, serial)
 
-	// //multi-assign
-	fixer, jobNum, sc := "Wakako", 48, 666
-	fmt.Println("Your current fixer is: ", fixer, ". This is job number: ", jobNum, ". Your street cred will increase by: ", sc)
+	// // //multi-assign
+	// fixer, jobNum, sc := "Wakako", 48, 666
+	// fmt.Println("Your current fixer is: ", fixer, ". This is job number: ", jobNum, ". Your street cred will increase by: ", sc)
 
-	// //truncation
-	accountAge := 2.6
-	accountAgeInt := int(accountAge)
-	fmt.Println("Your account is ", accountAgeInt, " years old. And has exactly ", accountAge, "years of account history")
+	// // //truncation
+	// accountAge := 2.6
+	// accountAgeInt := int(accountAge)
+	// fmt.Println("Your account is ", accountAgeInt, " years old. And has exactly ", accountAge, "years of account history")
 
 	//constants (cont)
 	const BladeRunnerID = "369"
