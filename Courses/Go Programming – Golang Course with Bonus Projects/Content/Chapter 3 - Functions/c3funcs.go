@@ -9,5 +9,5 @@ func sub(x int, y int) int {
 }
 
 func main() {
-	func sub(9,4)
+	sub(9 , 4)
 }
